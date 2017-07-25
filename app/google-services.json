@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1024498062419",
+    "firebase_url": "https://laris-inventory.firebaseio.com",
+    "project_id": "laris-inventory",
+    "storage_bucket": "laris-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024498062419:android:f24aff5151099e82",
+        "android_client_info": {
+          "package_name": "com.inventory.larissa.larissainventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024498062419-jmt1o5n98r883vq34svotngomghg9ock.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inventory.larissa.larissainventory",
+            "certificate_hash": "17d578a6639961b706fbef6835ec9e7563244d5e"
+          }
+        },
+        {
+          "client_id": "1024498062419-h8ll7etl3j73f6lok9k6cvhb2h9o3b4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNiTo9BVAn7jO6Gi_R_bChtqsW7X184Vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024498062419-h8ll7etl3j73f6lok9k6cvhb2h9o3b4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

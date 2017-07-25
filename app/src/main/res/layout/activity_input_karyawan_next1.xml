@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_barang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inventory.larissa.larissainventory.InputBarang"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:background="#6ce96a"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_margin="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Input Karywan"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:id="@+id/alamat"
+                style="@android:style/Widget.Holo.EditText"
+                android:inputType="textCapWords|textMultiLine" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kelurahan"
+                android:id="@+id/kelurahan"
+                android:singleLine="true"
+                style="@android:style/Widget.Holo.EditText"
+                android:inputType="textCapWords" />
+            <EditText
+                android:id="@+id/kota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kota"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                style="@android:style/Widget.Holo.EditText" />
+            <EditText
+                android:id="@+id/provinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Provinsi"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                style="@android:style/Widget.Holo.EditText" />
+
+            <EditText
+                android:id="@+id/kodepos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Pos"
+                android:singleLine="true"
+                style="@android:style/Widget.Holo.EditText"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/pendidikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pendidikan Terakhir"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                style="@android:style/Widget.Holo.EditText" />
+
+            <EditText
+                android:id="@+id/department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Department"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                style="@android:style/Widget.Holo.EditText" />
+            <EditText
+                android:id="@+id/jabaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jabatan"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                style="@android:style/Widget.Holo.EditText" />
+            <Button
+                android:layout_marginTop="16dp"
+                android:id="@+id/btnLanjutkan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lanjutkan"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

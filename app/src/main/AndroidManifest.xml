@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inventory.larissa.larissainventory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InputBarang" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".DetailBarang" />
+        <activity android:name=".InputRetur" />
+        <activity android:name=".InputKaryawan" />
+        <activity android:name=".InputKaryawanNext1" />
+        <activity android:name=".InputKarywanNext2" />
+        <activity android:name=".ListKaryawan" />
+        <activity android:name=".DetailKaryawan" />
+        <activity android:name=".ListRetur" />
+        <activity android:name=".DetailRetur" />
+        <activity android:name=".EditBarang" />
+        <activity android:name=".TambahStok"></activity>
+    </application>
+
+</manifest>
